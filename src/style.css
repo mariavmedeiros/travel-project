@@ -8,27 +8,47 @@ body {
   margin: 0 auto;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
     url("/images/maui-sunset2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
+  padding: 260px 0;
 }
 header h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 1.5;
+  margin: 0;
 }
 
 header h2 {
   font-weight: 400;
   font-size: 28px;
   line-height: 1.5;
+  margin: 0;
 }
 
 header h3 {
   font-weight: 900;
   font-size: 18px;
   line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  border-radius: 4px;
+  color: #272044;
 }
