@@ -2,6 +2,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: rgb(250, 208, 193);
 }
 .container {
   max-width: 1400px;
@@ -19,8 +20,8 @@ header {
 header h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 1.5;
-  margin: 0;
+  line-height: 1;
+  margin: 30px 0;
 }
 
 header h2 {
@@ -52,3 +53,9 @@ header a {
   border-radius: 4px;
   color: #272044;
 }
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+} ;
