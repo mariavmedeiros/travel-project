@@ -54,7 +54,13 @@ header a {
   color: #272044;
 }
 
-@media (max-width: 800px) {
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/maui-sunset.jpn.avif);
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
