@@ -3,6 +3,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(250, 208, 193);
+  padding: 30px;
 }
 .container {
   max-width: 1400px;
@@ -23,7 +24,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 260px 0;
+  padding: 200px 0;
 }
 header h1 {
   font-weight: 700;
@@ -83,6 +84,8 @@ footer p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  opacity: 0.9;
+  margin-right: 20px;
 }
 footer ul {
   padding: 0;
