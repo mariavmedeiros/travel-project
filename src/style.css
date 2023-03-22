@@ -142,4 +142,16 @@ footer a {
   header {
     padding: 60px 0;
   }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
 } ;
