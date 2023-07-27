@@ -14,9 +14,8 @@ body {
   text-align: center;
 }
 .img-responsive {
-  max-width: 100%;
   display: block;
-  width: 550px;
+  width: 500px;
 }
 .grid {
   display: grid;
@@ -25,6 +24,13 @@ body {
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background-color: white;
 }
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
@@ -98,7 +104,7 @@ main h2 {
 }
 main h3 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.5;
   color: #272044;
   margin: 0;
