@@ -9,6 +9,10 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.text-center {
+  text-align: center;
+}
 .img-responsive {
   max-width: 100%;
   display: block;
